@@ -6,7 +6,7 @@
     <script src="build/js/app.js"></script>
     <link rel="shortcut icon" href="<?= asset('images/cit.png') ?>" type="image/x-icon">
     <link rel="stylesheet" href="<?= asset('build/styles.css') ?>">
-    <title>DemoApp</title>
+    <title>DemoApp</title>  
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
@@ -58,7 +58,37 @@
     </div>
     <div class="container-fluid pt-5 mb-4" style="min-height: 85vh">
         
+        <div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 order-lg-1 text-center">
         <?php echo $contenido; ?>
+        </div>
+        <div class="col-lg-6 order-lg-2">
+            <div class="row justify-content-center align-items-center" style="min-height: 85vh;">
+                <div class="col-lg-8 col-md-10 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="mb-4 text-center">Iniciar sesión</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
     <div class="container-fluid " >
         <div class="row justify-content-center text-center">
