@@ -18,7 +18,7 @@
             </div>
         </form>
     </div class="mt-3">
-    <p class="mb-0 text-center">¿No tienes una cuenta?<a href="/login/registro" class="text-primary fw-bold ms-2">Registrate</a></p> 
+    <p class="mb-0 text-center">¿No tienes una cuenta?<a href="/login_reyes/registro" class="text-primary fw-bold ms-2">Registrate</a></p> 
     <script src="<?= asset('./build/js/login/index.js') ?>"></script>
     </div>
 </div>
